@@ -7,7 +7,7 @@ SakuraWHU created this digital-image-processing-application at his sophomore.
 ### 功能
 - 打开图片并显示在qt界面的graphicsview中，支持jpg\png\bmp\raw等多种格式
 - 保存图片，支持保存为jpg\png\bmp\raw,其中保存为raw格式会将图片分三波段分别保存
-- 对图像进行线性变换 $Y = aX + b$  ，$X$为原图，$Y$为处理后结果
+- 对图像进行线性变换 $$Y\eq aX+b$$  ，$X$为原图，$Y$为处理后结果
 - 对图像进行空间域低通滤波，包含均值滤波和加权均值滤波两种
 - 对图像进行空间域高通滤波，包含拉普拉斯算子，sobel算子，拉普拉斯增强算子三种
 - 对图像进行二值化，包含峰谷法，Ostu大津法两种
